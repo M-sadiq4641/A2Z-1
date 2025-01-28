@@ -1,4 +1,4 @@
-# A2Z AI: DeepSeek V3 Free 🚀
+# A2Z AI 🚀
 
 <!-- ![AI Tools Image](./doc/A2Z-ai.png) -->
 
