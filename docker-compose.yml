@@ -1,9 +1,9 @@
-version: '3'
+version: "3"
 
 services:
-  deepseek-Pixoul-ai:
-    container_name: deepseek-Pixoul-ai
-    image: vinlic/deepseek-Pixoul-ai:latest
+  deepseek-A2Z-ai:
+    container_name: deepseek-A2Z-ai
+    image: vinlic/deepseek-A2Z-ai:latest
     restart: always
     ports:
       - "8000:8000"

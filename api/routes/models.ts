@@ -1,26 +1,24 @@
-import _ from 'lodash';
+import _ from "lodash";
 
 export default {
+  prefix: "/v1",
 
-    prefix: '/v1',
-
-    get: {
-        '/models': async () => {
-            return {
-                "data": [
-                    {
-                        "id": "deepseek-chat",
-                        "object": "model",
-                        "owned_by": "deepseek-Pixoul-ai"
-                    },
-                    {
-                        "id": "deepseek-coder",
-                        "object": "model",
-                        "owned_by": "deepseek-Pixoul-ai"
-                    }
-                ]
-            };
-        }
-
-    }
-}
+  get: {
+    "/models": async () => {
+      return {
+        data: [
+          {
+            id: "deepseek-chat",
+            object: "model",
+            owned_by: "deepseek-A2Z-ai",
+          },
+          {
+            id: "deepseek-coder",
+            object: "model",
+            owned_by: "deepseek-A2Z-ai",
+          },
+        ],
+      };
+    },
+  },
+};
